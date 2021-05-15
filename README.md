@@ -18,35 +18,25 @@ To process large amount of website-log data in website, which is not fit into my
 * [x] Build the ML model with SparkMLlib using mini-dataset(128MB) 
 * [ ] Deploy the Spark cluster to AWS Cloud to train on the full dataset(12GB) 
 
-
 ## Installation<a name="Installation"></a>
-### Environment Setup
-All libraries are available in Anaconda distribution of Python 3.*. The used libraries are:
+### Environment Setup Using Conda Env
 ```
-os
-datetime
-numpy
-pandas
-matplotlib
-seaborn
-plotly
-pyspark
-chart-studio
+conda env create -f environment.yml
 ```
 ### Dataset
 The size of the mini-dataset is over 123MB so I uploaded the dataset on Kaggle as a private [here](https://www.kaggle.com/suhong/mini-sparkify-event-datajson). Note that this dataset is owned by Udacity, so the full dataset (12GB) can be accessed on AWS only. 
 
 ### File Structure 
-- [sparkify_udacity.ipynb](): the default notebook provided by Udacity 
-- [A_Tutorial_Of_Customer_Churn_Analysis_Prediction_local.ipynb](): the notebook contains all the code, working locally. 
-- [A_Tutorial_Of_Customer_Churn_Analysis_Prediction_kaggle.ipynb](): the notebook contains all the code, working on Kaggle.
-- [A_Tutorial_Of_Customer_Churn_Analysis_Prediction_aws.ipynb](): the  aws notebook (will be updated later) 
-
+- [Sparkify.ipynb](): the notebook contains all the code, working locally. 
+- [Sparkify.html](): the snapshot of the "Sparkify.ipynb" with the results 
+- [Sparkify_udacity.ipynb](): the default notebook provided by Udacity 
+- models/ : the directory for the saved models from the notebook 
+- snapshots/ : the directory for the used snapshots in README.md 
 
 ## Results<a name="Results"></a>
 - For the overview and general explanation of this project, please check my [Medium Post: "How to Predict Customer Churn From Your Website Logs?" ](https://suhongk.medium.com/how-to-predict-customer-churn-from-your-website-logs-bb02ea58385a)
 <a ref=https://suhongk.medium.com/how-to-predict-customer-churn-from-your-website-logs-bb02ea58385a>
-  <img src="medium_snapshot.png"
+  <img src="snapshots/medium_snapshot.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 </a>
@@ -55,7 +45,7 @@ The size of the mini-dataset is over 123MB so I uploaded the dataset on Kaggle a
 "A Tutorial of Customer Churn Analysis & Prediction"](https://www.kaggle.com/suhong/a-tutorial-of-customer-churn-analysis-prediction) 
 
 <a ref=https://www.kaggle.com/suhong/a-tutorial-of-customer-churn-analysis-prediction>
-  <img src="kaggle_snapshot.png"
+  <img src="snapshots/kaggle_snapshot.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 </a>

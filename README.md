@@ -19,13 +19,17 @@ To process large amount of website-log data in website, which is not fit into my
 * [ ] Deploy the Spark cluster to AWS Cloud to train on the full dataset(12GB) 
 
 ## Installation<a name="Installation"></a>
+### Dataset
+The size of the mini-dataset is over 100MB so I uploaded the dataset with .zip format. Note that this dataset is owned by Udacity, so the full dataset (12GB) can be accessed on AWS only. Please unzip the file before use, for example, you can use the below command on Linux. 
+```
+unzip mini_sparkify_event_data.zip
+```
 ### Environment Setup Using Conda Env
+Below command is used on Linux 
 ```
 conda env create -f environment.yml
+source activate spark
 ```
-### Dataset
-The size of the mini-dataset is over 123MB so I uploaded the dataset on Kaggle as a private [here](https://www.kaggle.com/suhong/mini-sparkify-event-datajson). Note that this dataset is owned by Udacity, so the full dataset (12GB) can be accessed on AWS only. 
-
 ### File Structure 
 - [Sparkify.ipynb](): the notebook contains all the code, working locally. 
 - [Sparkify.html](): the snapshot of the "Sparkify.ipynb" with the results 

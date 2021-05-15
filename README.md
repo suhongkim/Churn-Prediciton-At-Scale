@@ -45,9 +45,21 @@ The size of the mini-dataset is over 123MB so I uploaded the dataset on Kaggle a
 
 ## Results<a name="Results"></a>
 - For the overview and general explanation of this project, please check my [Medium Post: "How to Predict Customer Churn From Your Website Logs?" ](https://suhongk.medium.com/how-to-predict-customer-churn-from-your-website-logs-bb02ea58385a)
+<a ref=https://suhongk.medium.com/how-to-predict-customer-churn-from-your-website-logs-bb02ea58385a>
+  <img src="medium_snapshot.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+</a>
 
 - If you want to play with my code online, you want to visit my [Kaggle Post: 
 "A Tutorial of Customer Churn Analysis & Prediction"](https://www.kaggle.com/suhong/a-tutorial-of-customer-churn-analysis-prediction) 
+
+<a ref=https://www.kaggle.com/suhong/a-tutorial-of-customer-churn-analysis-prediction>
+  <img src="kaggle_snapshot.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+</a>
+
 
 ## Licensing, Authors, Acknowledgements<a name="License"></a>
 Some parts of the codes in this project are provided by Udacity Data Scientist Program. If you think that it is useful, please connect with me via [linkedIn-Suhong](https://www.linkedin.com/in/suhongkim/)

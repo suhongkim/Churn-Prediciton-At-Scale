@@ -56,7 +56,11 @@ source activate spark
 
 
 ## Licensing, Authors, Acknowledgements<a name="License"></a>
-Some parts of the codes in this project are provided by Udacity Data Scientist Program. If you think that it is useful, please connect with me via [linkedIn-Suhong](https://www.linkedin.com/in/suhongkim/)
+This project is the part of [the Udacity Data Scientist Nanodegree Program](https://www.udacity.com/course/data-scientist-nanodegree--nd025). The topic and dataset are given from the Udacity **but the code and contents are written by myself**. Plus, to create the pipline, I got some help from this [blog](https://www.timlrx.com/blog/feature-selection-using-feature-importance-score-creating-a-pyspark-estimator)
+
+If you think that it is useful, please connect with me via [linkedIn-Suhong](https://www.linkedin.com/in/suhongkim/)
+
+
 
 
 

@@ -1,6 +1,7 @@
 # Churn-Prediciton-At-Scale
-The CUstomer Churn Analysis & Prediction of the Music Streaming Service At Scale (PySpark and Plotly)
+The Customer Churn Analysis & Prediction At Scale (PySpark and Plotly)
 
+With PySpark and Plotly
 ## Table of Contents
 * [Introduction](#Introduction)
 * [Installation](#Installation)

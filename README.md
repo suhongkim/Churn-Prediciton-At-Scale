@@ -30,12 +30,16 @@ Below command is used on Linux
 conda env create -f environment.yml
 source activate spark
 ```
-### File Structure 
-- [Sparkify.ipynb](): the notebook contains all the code, working locally. 
-- [Sparkify.html](): the snapshot of the "Sparkify.ipynb" with the results 
-- [Sparkify_udacity.ipynb](): the default notebook provided by Udacity 
-- models/ : the directory for the saved models from the notebook 
-- snapshots/ : the directory for the used snapshots in README.md 
+### Pre-trained Models For Convenience
+If you prefer to train yourself, just skip this part. Otherwise, please unzip all the models in the [models](https://github.com/suhongkim/Churn-Prediciton-At-Scale/tree/main/models) before running the notebook. Below is the example command on Linux 
+```
+unzip "models/*.zip"
+```
+### Important Files 
+- [Sparkify.ipynb](https://github.com/suhongkim/Churn-Prediciton-At-Scale/blob/main/Sparkify.ipynb): the notebook contains all the code, working locally. 
+- [Sparkify.html](https://github.com/suhongkim/Churn-Prediciton-At-Scale/blob/main/Sparkify.html): the snapshot of the "Sparkify.ipynb" with the results 
+- [Sparkify_udacity.ipynb](https://github.com/suhongkim/Churn-Prediciton-At-Scale/blob/main/Sparkify_udacity.ipynb): the default notebook provided by Udacity 
+- [models/](https://github.com/suhongkim/Churn-Prediciton-At-Scale/tree/main/models) : the directory for the saved models from the notebook 
 
 ## Results<a name="Results"></a>
 - For the overview and general explanation of this project, please check my [Medium Post: "How to Predict Customer Churn From Your Website Logs?" ](https://suhongk.medium.com/how-to-predict-customer-churn-from-your-website-logs-bb02ea58385a)

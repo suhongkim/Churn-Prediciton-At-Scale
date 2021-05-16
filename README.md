@@ -1,7 +1,6 @@
 # Churn-Prediciton-At-Scale
 The Customer Churn Analysis & Prediction At Scale (PySpark and Plotly)
 
-With PySpark and Plotly
 ## Table of Contents
 * [Introduction](#Introduction)
 * [Installation](#Installation)
